@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "571256081216",
+    "project_id": "oto-app-e5abb",
+    "storage_bucket": "oto-app-e5abb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571256081216:android:88cf928bd067d89b6748a5",
+        "android_client_info": {
+          "package_name": "ec.ug.oto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571256081216-77huqgnn9o2ri6da8risc209guaic9hl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ec.ug.oto",
+            "certificate_hash": "99163c04d0c490613eee1e98570e7adb11c25600"
+          }
+        },
+        {
+          "client_id": "571256081216-ij7gjamefl634pna83vctvj27dl73tpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuBITZrCzKklsmVCsAgXWDGeSsN8lWJOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571256081216-ij7gjamefl634pna83vctvj27dl73tpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

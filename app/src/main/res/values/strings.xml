@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Oto</string>
+
+    <string name="btn_estudiante">Soy Profesor</string>
+    <string name="btn_profesor">Soy Estudiante</string>
+
+
+    <string name="txt_usuario">Usuario</string>
+    <string name="txt_pass">Contraseña</string>
+    <string name="txt_olvido">Olvidó su contraseña?</string>
+
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="btn_cancelar">Cancelar</string>
+</resources>
