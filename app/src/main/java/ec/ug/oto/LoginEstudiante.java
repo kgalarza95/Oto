@@ -9,8 +9,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import ec.ug.oto.niveles.PrincipalEstud;
+
 public class LoginEstudiante extends AppCompatActivity {
 
+    
     EditText txtUsuario;
     EditText txtPass;
     TextView lblOlvido;
@@ -32,6 +35,13 @@ public class LoginEstudiante extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(view.getContext(), MainActivity.class));
+            }
+        });
+
+        btnIngresar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(view.getContext(), PrincipalEstud.class));
             }
         });
     }
