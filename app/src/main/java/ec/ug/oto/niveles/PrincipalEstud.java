@@ -112,6 +112,12 @@ public class PrincipalEstud extends AppCompatActivity implements TextToSpeech.On
            // playAnnoyingMusic();
         }
     }
+
+    @Override
+    public void onBackPressed(){
+        //En caso de querer permitir volver atrás usa esta llamada:
+        //super.onBackPressed();
+    }
 }
 
 

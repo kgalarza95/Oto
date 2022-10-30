@@ -11,4 +11,7 @@
 
     <string name="btn_ingresar">Ingresar</string>
     <string name="btn_cancelar">Cancelar</string>
+
+    <string name="lbl_title">Oto Game</string>
+    <string name="lbl_mensaje_principal">Elige tu perfil para ingresar al sistema</string>
 </resources>
