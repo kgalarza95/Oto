@@ -14,5 +14,6 @@
     <color name="primaryDarkColor">#255d00</color>
     <color name="primaryTextColor">#000000</color>
     <color name="colorBlancoTransparente">#42FFFFFF</color>
+    <color name="colorNegroTransparente">#16000000</color>
 
 </resources>

@@ -1,4 +1,4 @@
-package ec.ug.oto.niveles;
+package ec.ug.oto.estudiante;
 
 import androidx.appcompat.app.AppCompatActivity;
 

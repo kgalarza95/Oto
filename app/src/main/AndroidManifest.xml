@@ -9,36 +9,43 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Oto">
-
         <activity
-            android:name=".niveles.PrincipalEstud"
+            android:name=".profesor.PrincipalProfesor"
+            android:exported="false"
+            android:theme="@style/Theme.OtoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".estudiante.PrincipalEstud"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".niveles.Nivel1"
+            android:name=".estudiante.Nivel1"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".LoginEstudiante"
+            android:name=".estudiante.LoginEstudiante"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".LoginProfesor"
-            android:exported="false">
+            android:name=".profesor.LoginProfesor"
+            android:exported="false"
+            android:theme="@style/Theme.Oto2">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity> <!-- tema original android:theme="@style/Theme.Oto" -->
-
         <activity
             android:name=".Splash"
             android:exported="true">
@@ -48,14 +55,17 @@
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
             android:exported="false" />
 
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

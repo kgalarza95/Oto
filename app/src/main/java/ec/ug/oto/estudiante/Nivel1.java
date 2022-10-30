@@ -1,17 +1,16 @@
-package ec.ug.oto;
+package ec.ug.oto.estudiante;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.media.MediaPlayer;
 import android.os.Bundle;
 
-public class LoginProfesor extends AppCompatActivity {
+import ec.ug.oto.R;
+
+public class Nivel1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_profesor);
-
-
+        setContentView(R.layout.activity_nivel1);
     }
 }

@@ -14,4 +14,8 @@
 
     <string name="lbl_title">Oto Game</string>
     <string name="lbl_mensaje_principal">Elige tu perfil para ingresar al sistema</string>
+
+    <string name="item_nosotros">Acerca de nosotros</string>
+    <string name="item_usuarios">Administrar Usuarios</string>
+    <string name="item_noticias">Noticias</string>
 </resources>

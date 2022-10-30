@@ -3,10 +3,12 @@ package ec.ug.oto;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import ec.ug.oto.estudiante.LoginEstudiante;
+import ec.ug.oto.profesor.LoginProfesor;
 
 public class MainActivity extends AppCompatActivity {
 
