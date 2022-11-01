@@ -7,13 +7,14 @@
     android:layout_height="match_parent"
 
     app:cardCornerRadius="20dp"
-    app:cardElevation="4dp"
+    app:cardElevation="5dp"
+
     app:cardUseCompatPadding="true">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="247dp">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/imageView3"
@@ -29,7 +30,7 @@
             android:id="@+id/textView"
             android:layout_width="143dp"
             android:layout_height="71dp"
-            android:layout_marginStart="56dp"
+            android:layout_marginStart="48dp"
             android:layout_marginTop="16dp"
             android:text="Usuario"
             android:textSize="34sp"
@@ -37,14 +38,15 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView3"
-            android:layout_width="143dp"
-            android:layout_height="71dp"
-            android:text="Usuario"
-            android:textSize="34sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView"
-            tools:layout_editor_absoluteX="120dp" />
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="36dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

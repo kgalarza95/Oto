@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -16,6 +17,7 @@ import ec.ug.oto.R;
 import ec.ug.oto.entidad.ItemUsuario;
 
 //importante que se llame "ListAdapter" para que funcione el adpatador
+//no es necesario llamarle ListAdapter
 public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
     public List<ItemUsuario> listUsuarios;
     public LayoutInflater layoutInflater;
@@ -53,9 +55,10 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         ImageView iv;
-
+        View manejoVista;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
+            manejoVista = itemView;
             iv = itemView.findViewById(R.id.imageView3);
         }
 
@@ -63,6 +66,12 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
             //iv
             //aqui van los valores a modificar el card view,
             //los texttos y demas.
+            manejoVista.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Toast.makeText(context, "Click.. "+itemCv.getNombre(), Toast.LENGTH_SHORT).show();
+                }
+            });
         }
     }
 }
