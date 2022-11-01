@@ -10,6 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Oto">
         <activity
+            android:name=".RecyclerViewLista"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".profesor.PrincipalProfesor"
             android:exported="false"
             android:theme="@style/Theme.OtoActionBar">
