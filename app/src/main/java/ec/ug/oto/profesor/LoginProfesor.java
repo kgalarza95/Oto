@@ -9,7 +9,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import ec.ug.oto.MainActivity;
 import ec.ug.oto.R;
 import ec.ug.oto.RecyclerViewLista;
 
@@ -43,7 +42,8 @@ public class LoginProfesor extends AppCompatActivity {
             public void onClick(View view) {
                 //startActivity(new Intent(view.getContext(), PrincipalProfesor.class));
                 //solo prueba de recyclerview
-                startActivity(new Intent(view.getContext(), RecyclerViewLista.class));
+              //  startActivity(new Intent(view.getContext(), RecyclerViewLista.class));
+                startActivity(new Intent(view.getContext(), DrawerProfesor.class));
             }
         });
     }

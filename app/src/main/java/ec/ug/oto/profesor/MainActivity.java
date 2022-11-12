@@ -1,4 +1,4 @@
-package ec.ug.oto;
+package ec.ug.oto.profesor;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import ec.ug.oto.R;
 import ec.ug.oto.estudiante.LoginEstudiante;
 import ec.ug.oto.profesor.LoginProfesor;
 

@@ -78,4 +78,7 @@
         <item name="startIconTint">@color/primaryDarkColor</item>
 
     </style>
+
+    <style name="Theme.Oto.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Oto.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

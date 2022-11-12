@@ -47,8 +47,11 @@
         </activity>
         <activity
             android:name=".profesor.LoginProfesor"
-            android:exported="false"
-            android:theme="@style/Theme.Oto2">
+            android:exported="false">
+<!--        <activity-->
+<!--            android:name=".profesor.LoginProfesor"-->
+<!--            android:exported="false"-->
+<!--            android:theme="@style/Theme.Oto2">-->
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -67,7 +70,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".profesor.MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <activity
+            android:name=".profesor.DrawerProfesor"
             android:exported="false" />
 
         <meta-data
